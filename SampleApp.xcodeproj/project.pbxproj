@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A249DCB2499B04400D3E32B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A249DCA2499B04400D3E32B /* MapKit.framework */; };
 		2A5F80C9249736EA00543B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F80C8249736EA00543B5A /* AppDelegate.swift */; };
 		2A5F80CB249736EA00543B5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F80CA249736EA00543B5A /* ViewController.swift */; };
 		2A5F80CE249736EA00543B5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5F80CC249736EA00543B5A /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A249DCA2499B04400D3E32B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2A5F80C5249736EA00543B5A /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5F80C8249736EA00543B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A5F80CA249736EA00543B5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A249DCB2499B04400D3E32B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +115,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A249DC92499B04400D3E32B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A249DCA2499B04400D3E32B /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2A5F80BC249736EA00543B5A = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +130,7 @@
 				2A5F80DC249736EC00543B5A /* SampleAppTests */,
 				2A5F80E7249736EC00543B5A /* SampleAppUITests */,
 				2A5F80C6249736EA00543B5A /* Products */,
+				2A249DC92499B04400D3E32B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
